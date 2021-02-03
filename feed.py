@@ -17,6 +17,6 @@ for i in feed["entries"]:
     print(i["link"], i["title"])
 
 
-f = open("README.md, mode=w", encoding="utf-8")
+f = open("README.md", mode="w", encoding="utf-8")
 f.write(text)
 f.close()
